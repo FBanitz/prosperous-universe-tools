@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luston.fr - Prosperous Universe Tools - Building Costs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="icon" href="https://luston.fr/assets/images/logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <nav class="navbar bg-dark-subtle">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://luston.fr">
+                <img src="https://luston.fr/assets/images/logo.png" alt="Luston.fr logo" width="30" height="30"
+                    class="d-inline-block align-text-top">
+                Luston.fr
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="media d-flex">
+            <a href="../"><img src="https://prosperousuniverse.com/favicon.png" alt="Prosperous Universe Logo" width="128" height="128"></a>
+            <div class="media-body p-3">
+                <a href="../" class="text-light"><h1>Prosperous Universe Tools</h1></a>
+                <h2>Building Costs</h2>
+            </div>
+        </div>
+        <div id="buildings">
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+        <div id="buildings-raw-data-accordion" class="accordion mx-3">
+            <div class="accordion-item">
+                <h2 id="buildings-raw-data-accordion-header" class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#buildings-raw-data-accordion-collapse" href="#/buildings-raw-data" aria-expanded="false">
+                        Buildings raw data
+                    </button>
+                </h2>
+                <div id="buildings-raw-data-accordion-collapse" class="accordion-collapse collapse" aria-labelledby="buildings-raw-data-accordion-header" data-bs-parent="#buildings-raw-data-accordion">
+                    <div id="buildings-raw-data" class="accordion-body">
+                        <p>Raw data will be displayed here when available</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <copyright class="p-3">
+            <div class="row">
+                <div class="col">
+                    <p>
+                        &copy; Copyright <a href="https://luston.fr">Luston.fr</a> <a href="http://francois-banitz.fr" target="_blank">François BANITZ</a>
+                         2023 using <a href="https://fnar.net/page/projects/" target="_blank">FNAR</a>'s FIO Rest API
+                    </p>
+                </div>
+            </div>
+        </copyright>
+        <github>
+            <a href="https://github.com/FBanitz" target="_blank">
+                <img src="https://luston.fr/assets/images/github-mark-white.png" alt="Github" width="35" height="35"></a>
+        </github>
+    </div>
+            
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+<script src="./assets/js/main.js" type="module"></script>
+
+</html>
