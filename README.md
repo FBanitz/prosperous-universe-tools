@@ -1,5 +1,6 @@
 # prosperous-universe-tools
-Web-based tools for the [prosperous universe](prosperousuniverse.com/) game using [FNAR](https://fnar.net/page/projects/)'s FIO Rest API .
+Web-based tools for the [prosperous universe](prosperousuniverse.com/) game using [FNAR](https://fnar.net/page/projects/)'s FIO Rest API.
+
 See it live on [luston.fr](https://luston.fr/prosperous-universe/tools/)
 
 ## Features ✨
